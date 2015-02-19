@@ -17,8 +17,12 @@
 /*================================*/
 /*Everything*/
 /*================================*/
-html {
+html, body {
     font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
 }
 
 /* Gradient transparent - color - transparent */
@@ -39,18 +43,18 @@ hr {
 /*================================*/
 #logoBanner {
     background-color: bisque;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
 #logo {
     background-color: burlywood;
-    width: 600px;
     margin: 0 auto;
 }
 
 #logoText {
     font-size: 3em;
+    margin: 0 0 10px 0;
 }
 
 /*================================*/
@@ -59,27 +63,30 @@ hr {
 
 #nav {
     background-color: blanchedalmond;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     text-align: right;
+    max-width: 900px;
 }
 
 #auth {
     background-color: aliceblue;
     width: 150px;
     float: right;
+    margin-right: 10%
 }
 
 #home {
     background-color: burlywood;
-    width: 75px;
+    /*width: 75px;*/
     float: left;
+    margin-left: 10%;
 }
 
 #signUp {
     /*color: #730E15;*/
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 10%
 }
 
 #logIn {
@@ -100,6 +107,111 @@ hr {
 
 #container {
     background-color: antiquewhite;
+    margin: 0 auto;
+    max-width: 900px;
+    /*padding: 20px;*/
+}
+
+#footer {
+    background-color: lightblue;
+    width: 100%;
+}
+
+
+
+
+
+/*================================================================*/
+/*  Media Quiries stuff*/
+/*================================================================*/
+
+
+/*================================*/
+/*Everything*/
+/*================================*/
+/*html {*/
+    /*font-family: 'Raleway', sans-serif;*/
+/*}*/
+
+/* Gradient transparent - color - transparent */
+/* Source: http://css-tricks.com/examples/hrs/ */
+/*hr {*/
+    /*border: 0;*/
+    /*height: 1px;*/
+    /*background: #333;*/
+    /*background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);*/
+    /*background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);*/
+    /*background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);*/
+    /*background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);*/
+/*}*/
+
+
+/*================================*/
+/*Logo banner*/
+/*================================*/
+/*#logoBanner {*/
+    /*background-color: bisque;*/
+    /*width: 940px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*#logo {*/
+    /*background-color: burlywood;*/
+    /*width: 600px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*#logoText {*/
+    /*font-size: 3em;*/
+/*}*/
+
+/*================================*/
+/* Nav */
+/*================================*/
+
+/*#nav {
+    background-color: blanchedalmond;
+    width: 940px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#auth {
+    background-color: aliceblue;
+    width: 150px;
+    float: right;
+}
+
+#home {
+    background-color: burlywood;
+    width: 75px;
+    float: left;
+}
+
+#signUp {
+    /*color: #730E15;*/
+    /*display: inline-block;*/
+    /*margin-right: 25px;*/
+/*}*/
+
+/*#logIn {*/
+    /*display: inline-block;*/
+/*}*/
+
+/*#logOut {*/
+    /*display: inline-block;*/
+/*}*/
+
+/*#empty {*/
+    /*visibility: hidden;*/
+/*}*/
+
+/*================================*/
+/*Yield container*/
+/*================================*/
+/*
+#container {
+    background-color: antiquewhite;
     width: 900px;
     margin: 0 auto;
     padding: 20px;
@@ -109,4 +221,8 @@ hr {
 #footer {
     background-color: lightblue;
     width: 100%;
-}
+}*/
+
+
+
+

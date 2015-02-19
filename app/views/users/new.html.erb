@@ -11,9 +11,9 @@
 
   <div id="userFormArea">
       <%= form_for @user do |f|%>
-      <div class="inputBox">First name: <%= f.text_field :f_name %><br /></div>
-      <div class="inputBox">Last last: <%= f.text_field :l_name %><br /></div>
-      <div class="inputBox">E-mail: <%= f.text_field :email %><br /></div>
+      First name: <%= f.text_field :f_name %><br />
+      Last last: <%= f.text_field :l_name %><br />
+      E-mail: <%= f.text_field :email %><br />
       Password: <%= f.password_field :password %><br />
       Password confirmation: <%= f.password_field :password_confirmation %><br />
       <%=f.submit %>

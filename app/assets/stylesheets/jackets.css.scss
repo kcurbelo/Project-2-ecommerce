@@ -8,13 +8,14 @@
 
 h1 {
   text-align: center;
+  margin: 10px 0 20px 0;
 }
 
 #tile {
   background-color: chocolate;
-  width: 260px;
+  width: 90%;
   text-align: center;
-  margin: 20px;
+  margin: 2% 5%;
   float: left;
 }
 
@@ -22,6 +23,9 @@ h1 {
   clear: both;
   background-color: cornflowerblue;
   text-align: center;
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 
@@ -51,6 +55,65 @@ h1 {
    margin-top: 25px;
  }
 
-f.submit {
-  background-color: #B00100;
-}
+
+
+
+
+
+//=========================================================
+// Media Queries 
+//=========================================================
+
+
+//==========================
+// Index
+//==========================
+
+//h1 {
+//  text-align: center;
+//}
+
+//#tile {
+//  background-color: chocolate;
+//  width: 260px;
+//  text-align: center;
+//  margin: 20px;
+//  float: left;
+//}
+//
+//#newJacketButton {
+//  clear: both;
+//  background-color: cornflowerblue;
+//  text-align: center;
+//}
+//
+//
+//
+////==========================
+//// Show
+////==========================
+//
+//#rightInfoBox {
+//  width: 350px;
+//  background-color: peachpuff;
+//  float: right;
+//}
+//
+//#leftPicBox {
+//  width: 350px;
+//  background-color: beige;
+//  height: 500px;
+//  margin-left: 100px;
+//}
+//
+//#back {
+//  margin-top: 50px;
+//}
+//
+//.topMargin{
+//   margin-top: 25px;
+// }
+//
+//f.submit {
+//  background-color: #B00100;
+//}

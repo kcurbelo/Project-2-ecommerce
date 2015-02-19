@@ -10,10 +10,15 @@
 #userFormArea {
   text-align: right;
 //  background-color: #cccccc;
-  width: 500px;
-  margin: 0 10px;
+  margin: 0 auto;
 }
 
 #userForm {
   margin-top: 100px;
+}
+
+.inputBox {
+//  margin: 0 auto;
+  background-color: #cccccc;
+  width: 75%;
 }
