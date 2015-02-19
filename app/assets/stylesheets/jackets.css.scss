@@ -1,0 +1,36 @@
+// Place all the styles related to the jackets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//==========================
+// Index
+//==========================
+
+h1 {
+  text-align: center;
+}
+
+#tile {
+  background-color: chocolate;
+  width: 260px;
+  text-align: center;
+  margin: 20px;
+  float: left;
+}
+
+#newJacketButton {
+  clear: both;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+
+
+//==========================
+// Show
+//==========================
+
+#rightInfoBox {
+  width: 350px;
+  background-color: peachpuff;
+}

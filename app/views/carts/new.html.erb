@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <!--=========================Twitter Bootstrap=======================-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- Jacket information -->
+	<h1>Carts#new</h1>
+
+	<h2>Jacket name:</h2> 
+
+	<p><%= @j.name %></p>
+
+	<h2>Jacket Price:</h2> 
+
+	<p><%= @j.price %></p>
+
+	<h2>Jacket Size:</h2> 
+
+	<p><%= @j.size %></p>
+<hr />
+<!-- User payment information -->
+<h1> Payment info </h1>
+
+
+<!-- This says that if they are logged in then they can have a form (that is auto populated) that they can fill in -->
+
+<% if current_user != nil %>
+<%= form_for @u do |f|%>
+    First name: <%= f.text_field :f_name %><br />
+    Last last: <%= f.text_field :l_name %><br />
+    E-mail: <%= f.text_field :email %><br />
+    Address: <%= f.text_field :address %><br />
+    Zipcode: <%= f.text_field :address %><br />
+    Credit card Number: <%= f.text_field :address %><br />
+    Name on card: <%= f.text_field :address %><br />    
+    <%#=f.submit %>
+<% end %>
+<% else %>
+
+<%= render "placeholder" %>
+<!-- Render placeholder form -->
+<!-- Render placeholder form -->
+<!-- Render placeholder form -->
+<!-- Render placeholder form -->
+<!-- Render placeholder form -->
+<!-- Render placeholder form -->
+<% end %>
+
+
+
+</body>
+
+
+</html>

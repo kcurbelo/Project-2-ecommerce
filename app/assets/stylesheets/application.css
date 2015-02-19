@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*================================*/
+/*Everything*/
+/*================================*/
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Gradient transparent - color - transparent */
+/* Source: http://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+
+/*================================*/
+/*Logo banner*/
+/*================================*/
+#logoBanner {
+    background-color: bisque;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo {
+    background-color: burlywood;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#logoText {
+    font-size: 3em;
+}
+
+/*================================*/
+/*Authentication buttons*/
+/*================================*/
+
+#authContainer {
+    background-color: blanchedalmond;
+    width: 940px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#signUp {
+    /*color: #730E15;*/
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#logIn {
+    display: inline-block;
+}
+
+#logOut {
+    display: inline-block;
+}
+
+/*================================*/
+/*Yield container*/
+/*================================*/
+
+#container {
+    background-color: antiquewhite;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#footer {
+    background-color: lightblue;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+
+<head>
+  <link rel="stylesheet" href="assets/jackets.css.scss">
+</head>
+
+
+
+
+
+  <h1>Our Jackets</h1>
+  <hr />
+
+  <% @jackets.each do |jacket| %>
+      <div id="tile">
+        <%= jacket.name %><br />
+        <%= jacket.price %><br />
+        <%= jacket.size %><br />
+        <%= link_to 'show', jacket %>
+        <%= link_to 'Edit', edit_jacket_path(jacket) %>
+        <%= link_to 'Delete', jacket, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
+  <% end %>
+
+<div id="newJacketButton"> <%= link_to "New Jacket", "jackets/new" %></div>
+<%#= link_to "New User", "users/new" %>
+<%#= link_to "Login", "sessions/new" %>
+
