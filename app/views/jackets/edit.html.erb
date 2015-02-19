@@ -3,10 +3,10 @@
 
 <body>
 
-<!-- For the edit you can copy what was in the new.html.erb and just change the text heading and button text -->
-<h1> Edit a Jacket!</h1>
+  <!-- For the edit you can copy what was in the new.html.erb and just change the text heading and button text -->
+  <h1> Edit a Jacket!</h1>
 
-<%= form_for @jacket do |f| %>
+  <%= form_for @jacket do |f| %>
     Type: <%= f.text_field :name %>
     <!-- Rails guide form helper says that you could use number_field ...Itll have up and down arrows and allow you to bring up numbers on mobile -->
     Price: <%= f.text_field :price %>
@@ -14,8 +14,8 @@
     <!-- creates submit button -->
     <%=f.submit "Update this Jacket" %>
     <!-- end the loop started at form_for @beverage do -->
-<% end %>
+  <% end %>
 
-<%= link_to "Back to the jackets list", jackets_path %>
+  <%= link_to "Back to the jackets list", jackets_path %>
 
 </body>

@@ -2,16 +2,16 @@
 </head>
 
 <body>
-<h1> Add a jacket</h1>
+	<h1> Add a jacket</h1>
 
-<!--This is saying to go an look for the "@jacket" in the Jacket controller under the "new section"-->
-<%= form_for @jacket do |f| %>
-    Name: <%= f.text_field :name %>
-    <!-- Rails guide form helper says that you could use number_field ...Itll have up and down arrows and allow you to bring up numbers on mobile -->
-    Price: <%= f.text_field :price %>
-    Size: <%= f.text_field :size %>
-    <!-- creates submit button -->
-    <%=f.submit "Add this jacket" %>
-    <!-- end the loop started at form_for @beverage do -->
-<% end %>
+	<!--This is saying to go an look for the "@jacket" in the Jacket controller under the "new section"-->
+	<%= form_for @jacket do |f| %>
+	    Name: <%= f.text_field :name %>
+	    <!-- Rails guide form helper says that you could use number_field ...Itll have up and down arrows and allow you to bring up numbers on mobile -->
+	    Price: <%= f.text_field :price %>
+	    Size: <%= f.text_field :size %>
+	    <!-- creates submit button -->
+	    <%=f.submit "Add this jacket" %>
+	    <!-- end the loop started at form_for @beverage do -->
+	<% end %>
 </body>
