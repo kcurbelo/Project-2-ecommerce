@@ -54,14 +54,26 @@ hr {
 }
 
 /*================================*/
-/*Authentication buttons*/
+/* Nav */
 /*================================*/
 
-#authContainer {
+#nav {
     background-color: blanchedalmond;
     width: 940px;
     margin: 0 auto;
     text-align: right;
+}
+
+#auth {
+    background-color: aliceblue;
+    width: 150px;
+    float: right;
+}
+
+#home {
+    background-color: burlywood;
+    width: 75px;
+    float: left;
 }
 
 #signUp {
@@ -78,6 +90,10 @@ hr {
     display: inline-block;
 }
 
+#empty {
+    visibility: hidden;
+}
+
 /*================================*/
 /*Yield container*/
 /*================================*/
@@ -87,6 +103,7 @@ hr {
     width: 900px;
     margin: 0 auto;
     padding: 20px;
+
 }
 
 #footer {

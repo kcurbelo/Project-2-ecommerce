@@ -33,4 +33,24 @@ h1 {
 #rightInfoBox {
   width: 350px;
   background-color: peachpuff;
+  float: right;
+}
+
+#leftPicBox {
+  width: 350px;
+  background-color: beige;
+  height: 500px;
+  margin-left: 100px;
+}
+
+#back {
+  margin-top: 50px;
+}
+
+.topMargin{
+   margin-top: 25px;
+ }
+
+f.submit {
+  background-color: #B00100;
 }

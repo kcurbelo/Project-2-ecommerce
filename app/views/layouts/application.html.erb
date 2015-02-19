@@ -24,7 +24,8 @@
 <!----------------------------------------->
 <!--        Authentication buttons       -->
 <!----------------------------------------->
-<div id="authContainer">
+<div id="nav">
+  <div id="auth">
       <!-- Logout button -->
       <% if current_user != nil %>
         <div id="logOut"><%= link_to "Log out", sessions_path %></div>
@@ -32,11 +33,23 @@
         <!-- Sign up and login buttons -->
         <div id="signUp"><%= link_to "Sign up", new_user_path %></div>
           <!--<div id="signUp"><%#= link_to "Sign up", new_user_path, method: :get %></div>-->
-
-          <div id="logIn"><%= link_to "Log in", new_session_path %></div>
+        <div id="logIn"><%= link_to "Log in", new_session_path %></div>
       <% end %>
+  </div>
+  <div id="home">
+    <%= link_to "Home", jackets_path %>
+  </div>
+  <!--Empty div to prevent collapse of nav divs-->
+  <div id="empty">
+   .
+  </div>
 </div>
 
+
+
+<!----------------------------------------->
+<!--               Yield                 -->
+<!----------------------------------------->
 <div id="container">
     <%= yield %>
 </div>
