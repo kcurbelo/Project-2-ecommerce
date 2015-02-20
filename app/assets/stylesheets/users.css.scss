@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
 
 //==============================
 //Form area
@@ -21,7 +24,7 @@
   background-color: #cccccc;
   width: 75%;
   max-width: 300px;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
   font-size: 1.25em;
 }
@@ -32,9 +35,22 @@ input {
   max-width: 275px;
   font-size: .9em;
   font-family: 'Raleway', sans-serif;
-
+  margin-bottom: 25px;
 }
 
 #userSubmit {
   margin: 0 auto;
 }
+
+.button {
+  width: 80%;
+  font-size: 1.20em;
+  /* color: #B00100; */
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  max-width: 300px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+}
+

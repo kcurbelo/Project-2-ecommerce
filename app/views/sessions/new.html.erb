@@ -3,15 +3,29 @@
 
 <body>
 
-  <h1>Log-in!</h1>
+  <h1>Login</h1>
+  <hr />
 
 <div>
 
   <div id="loginFormArea">
+
     <%= form_for @user, :url => { :controller => "sessions", :action => "create" } do |f| %> <!-- See the comment under the f.submit line for details. the url tells it to go to the sessions path, create method instead-->
-    E-mail: <%= f.text_field :email %><br />
-    Password: <%= f.password_field :password %><br />
-    <%=f.submit 'Login' %> <!-- This will post back to the users controller by default because it's a user. We need to override this behavior -->
+
+        <div class="inputBox">
+        E-mail:<br />
+        <%= f.text_field :email %><br />
+        </div>
+
+        <div class="inputBox">
+        Password: <br />
+        <%= f.password_field :password %><br />
+        </div>
+
+        <div>
+        <%=f.submit 'Login', :class => "button" %> <!-- This will post back to the users controller by default because it's a user. We need to override this behavior -->
+        </div>
+
     <% end %>
   </div>
 
@@ -20,3 +34,4 @@
   <div id="newUser"><%= link_to 'New user? Create an account here', new_user_path %></div>
 
 </body>
+

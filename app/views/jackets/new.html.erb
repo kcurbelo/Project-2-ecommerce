@@ -1,4 +1,5 @@
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -7,25 +8,32 @@
 <div id="newForm">
 	<!--This is saying to go an look for the "@jacket" in the Jacket controller under the "new section"-->
   <%= form_for @jacket do |f| %>
+
+      <div class="inputBox">
       Name: <br />
       <%= f.text_field :name %><br />
+      </div>
+
       <!-- Rails guide form helper says that you could use number_field ...Itll have up and down arrows and allow you to bring up numbers on mobile -->
+      <div class="inputBox">
       Price: <br />
       <%= f.text_field :price %><br />
+      </div>
+
+      <div class="inputBox">
       Size: <br />
       <%= f.text_field :size %><br />
+      </div>
+
       <!-- creates submit button -->
-      <%=f.submit "Add this jacket" %>
+      <div>
+      <%=f.submit "Add Jacket", :class => "button" %>
+      </div>
       <!-- end the loop started at form_for @beverage do -->
   <% end %>
 
 </div>
-    
-    <%= bootstrap_form_for @jacket do |f| %>
-    <%= f.text_field :name %><br />
-    <%= f.text_field :price %><br />
-    <%= f.text_field :size %><br />
-    <%=f.submit "Add this jacket" %>
-<% end %>
+
+
 
 </body>

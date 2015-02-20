@@ -5,18 +5,12 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
-    <link rel="stylesheet" href="assets/jackets.css.scss">
-    <link rel="stylesheet" href="assets/carts.css.scss">
-    <link rel="stylesheet" href="assets/sessions.css.scss">
-    <link rel="stylesheet" href="assets/users.css.scss">
 
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-
-
-    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/jackets.css.scss">
+  <link rel="stylesheet" href="assets/carts.css.scss">
+  <link rel="stylesheet" href="assets/sessions.css.scss">
+  <link rel="stylesheet" href="assets/users.css.scss">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -67,8 +61,8 @@
     <%= yield %>
 </div>
   <!--Find out which current i.d. is logged in-->
-  <%= session["user_id"].inspect  %>
-  <%= params.inspect %>
+  <%#= session["user_id"].inspect  %>
+  <%#= params.inspect %>
 
 
   

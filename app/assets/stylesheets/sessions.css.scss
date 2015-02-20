@@ -3,14 +3,37 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #loginFormArea {
-  text-align: right;
+  text-align: center;
   //  background-color: #cccccc;
-  width: 500px;
-  margin: 0 10px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.25em;
 }
 
 #newUser {
   text-align: center;
   background-color: aquamarine;
   margin-top: 25px;
+  font-size: 1.5em;
+}
+
+.inputBox {
+  //  margin: 0 auto;
+  background-color: #cccccc;
+  width: 75%;
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.25em;
+}
+
+.button {
+  width: 80%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.20em;
+  margin: 0 auto;
+  max-width: 300px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
 }
