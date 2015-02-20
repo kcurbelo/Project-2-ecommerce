@@ -46,6 +46,7 @@ h1 {
 
 #InfoBox {
   width: 80%;
+  max-width: 350px;
   background-color: peachpuff;
   margin: 0 auto;
   text-align: center;
@@ -54,6 +55,7 @@ h1 {
 
 #PicBox {
   width: 80%;
+  max-width: 350px;
   background-color: beige;
   height: 500px;
   margin: 15px auto 0 auto;
@@ -132,6 +134,8 @@ input {
 //  text-align: center;
 //}
 
+
+
 #tile {
   background-color: chocolate;
   width: 260px;
@@ -173,21 +177,28 @@ input {
 
 @media screen and (min-width: 700px) {
 
-  #rightInfoBox {
+
+
+  //==========================
+  // Show
+  //==========================
+  #InfoBox {
     width: 350px;
     background-color: peachpuff;
     float: right;
   }
 
-  #leftPicBox {
+  #PicBox {
     width: 350px;
     background-color: beige;
     height: 500px;
     margin-left: 100px;
+    float: left;
   }
 
   #nothing {
-    visibility: hidd;
+    visibility: hidden;
+    clear: both;
   }
 
 }
