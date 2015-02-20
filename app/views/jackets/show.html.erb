@@ -5,11 +5,11 @@
 
 
 <div id="PicBox">
-  Placeholder
+  <%= image_tag @jacket.avatar.url(:medium) %>
 </div>
 
 <div id="InfoBox">
-  <p> <%= @jacket.name %><br /></p>
+  <p> <%= jacket.name %><br /></p>
   <p>Price: <%= @jacket.price %><br /></p>
   <p>Size: <%= @jacket.size %><br /></p>
   <hr />

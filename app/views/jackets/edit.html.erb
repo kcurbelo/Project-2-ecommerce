@@ -15,11 +15,13 @@
     <%= f.text_field :price %><br />
     Quantity:<br />
     <%= f.text_field :size %><br />
+    <%= f.file_field :avatar %><br />
     <!-- creates submit button -->
-    <%=f.submit "Update this Jacket" %>
+    <%=f.submit "Update this Jacket", :class => "button"%>
     <!-- end the loop started at form_for @beverage do -->
   <% end %>
-
+  <br />
+    <br />
   <%= link_to "Back to the jackets list", jackets_path %>
   </div>
 

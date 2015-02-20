@@ -37,6 +37,12 @@ h1 {
   font-size: 1.5em;
 }
 
+.picTile {
+  height: 300px;
+  width: 260px;
+  background-color: lightsalmon;
+  margin: 0 auto;
+}
 
 
 
@@ -75,7 +81,6 @@ h1 {
 //==========================
 
 #editForm {
-  background-color: #333333;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -175,7 +180,7 @@ input {
 //  End of media query 1
 //  ==============================================
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
 
 
 

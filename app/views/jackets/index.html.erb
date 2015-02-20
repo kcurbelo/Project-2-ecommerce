@@ -12,8 +12,9 @@
 
   <% @jackets.each do |jacket| %>
       <div id="tile">
-        <div class="PicBox">
-          Placeholder
+        <div class="picTile">
+          <!--#todo - ask why when I take away the @ symbol does it not give me an error http://stackoverflow.com/questions/11149967/access-paperclip-avatar-from-other-views-resources-in-rails-->
+          <%= image_tag jacket.avatar.url(:medium) %>
         </div>
         <%= jacket.name %><br /><hr />
         Price: <%= jacket.price %><br />
