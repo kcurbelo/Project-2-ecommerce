@@ -35,16 +35,17 @@ h1 {
 //==========================
 
 #rightInfoBox {
-  width: 350px;
+  width: 80%;
   background-color: peachpuff;
-  float: right;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #leftPicBox {
-  width: 350px;
+  width: 80%;
   background-color: beige;
   height: 500px;
-  margin-left: 100px;
+  margin: 15px auto 0 auto;
 }
 
 #back {
@@ -56,8 +57,27 @@ h1 {
  }
 
 
+//==========================
+// Edit
+//==========================
 
+#editForm {
+  background-color: #333333;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 
+//==========================
+// New
+//==========================
+
+#newForm {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
 
 
 //=========================================================

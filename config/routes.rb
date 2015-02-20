@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   root 'jackets#index'
 
   delete '/sessions' => 'sessions#destroy', as: 'logout'
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions, only: [:new, :create]
 
   resources :users, only: [:index, :new, :create, :show]
 

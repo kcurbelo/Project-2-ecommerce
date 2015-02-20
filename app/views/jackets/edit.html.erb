@@ -6,16 +6,22 @@
   <!-- For the edit you can copy what was in the new.html.erb and just change the text heading and button text -->
   <h1> Edit a Jacket!</h1>
 
+  <div id="editForm">
   <%= form_for @jacket do |f| %>
-    Type: <%= f.text_field :name %>
+    Type: <br />
+    <%= f.text_field :name %><br />
     <!-- Rails guide form helper says that you could use number_field ...Itll have up and down arrows and allow you to bring up numbers on mobile -->
-    Price: <%= f.text_field :price %>
-    Quantity: <%= f.text_field :size %>
+    Price: <br />
+    <%= f.text_field :price %><br />
+    Quantity:<br />
+    <%= f.text_field :size %><br />
     <!-- creates submit button -->
     <%=f.submit "Update this Jacket" %>
     <!-- end the loop started at form_for @beverage do -->
   <% end %>
 
   <%= link_to "Back to the jackets list", jackets_path %>
+  </div>
+
 
 </body>
