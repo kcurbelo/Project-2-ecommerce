@@ -24,7 +24,7 @@ h1 {
   text-align: center;
   margin: 2% 5%;
   float: left;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #newJacketButton {
@@ -39,11 +39,12 @@ h1 {
 
 
 
+
 //==========================
 // Show
 //==========================
 
-#rightInfoBox {
+#InfoBox {
   width: 80%;
   background-color: peachpuff;
   margin: 0 auto;
@@ -51,7 +52,7 @@ h1 {
   font-size: 1.25em;
 }
 
-#leftPicBox {
+#PicBox {
   width: 80%;
   background-color: beige;
   height: 500px;
@@ -119,6 +120,10 @@ input {
 //=========================================================
 
 
+@media screen and (min-width: 500px) {
+
+
+
 //==========================
 // Index
 //==========================
@@ -127,13 +132,15 @@ input {
 //  text-align: center;
 //}
 
-//#tile {
-//  background-color: chocolate;
-//  width: 260px;
-//  text-align: center;
-//  margin: 20px;
-//  float: left;
-//}
+#tile {
+  background-color: chocolate;
+  width: 260px;
+  text-align: center;
+  margin: 20px;
+  float: left;
+}
+
+}
 //
 //#newJacketButton {
 //  clear: both;
@@ -147,18 +154,6 @@ input {
 //// Show
 ////==========================
 //
-//#rightInfoBox {
-//  width: 350px;
-//  background-color: peachpuff;
-//  float: right;
-//}
-//
-//#leftPicBox {
-//  width: 350px;
-//  background-color: beige;
-//  height: 500px;
-//  margin-left: 100px;
-//}
 //
 //#back {
 //  margin-top: 50px;
@@ -171,3 +166,28 @@ input {
 //f.submit {
 //  background-color: #B00100;
 //}
+
+//  ==============================================
+//  End of media query 1
+//  ==============================================
+
+@media screen and (min-width: 700px) {
+
+  #rightInfoBox {
+    width: 350px;
+    background-color: peachpuff;
+    float: right;
+  }
+
+  #leftPicBox {
+    width: 350px;
+    background-color: beige;
+    height: 500px;
+    margin-left: 100px;
+  }
+
+  #nothing {
+    visibility: hidd;
+  }
+
+}

@@ -12,9 +12,12 @@
 
   <% @jackets.each do |jacket| %>
       <div id="tile">
-        <%= jacket.name %><br />
-        <%= jacket.price %><br />
-        <%= jacket.size %><br />
+        <div class="PicBox">
+          Placeholder
+        </div>
+        <%= jacket.name %><br /><hr />
+        Price: <%= jacket.price %><br />
+        Size: <%= jacket.size %><br />
         <%= link_to 'Show', jacket %>
         <%= link_to 'Edit', edit_jacket_path(jacket) %>
         <%= link_to 'Delete', jacket, method: :delete, data: { confirm: 'Are you sure?' } %>
