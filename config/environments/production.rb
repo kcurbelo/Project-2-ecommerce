@@ -27,7 +27,6 @@ Rails.application.configure do
 
   config.assets.digest = true
 
-
   config.assets.compress = true
 
   # Compress JavaScripts and CSS.
