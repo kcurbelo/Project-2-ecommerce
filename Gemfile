@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 
 gem "paperclip", "~> 4.2"
+gem 'aws-sdk'
+gem 'figaro'
 
 group :production do
     gem 'rails_12factor'
