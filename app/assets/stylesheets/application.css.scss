@@ -39,6 +39,7 @@ hr {
 }
 
 
+
 /*================================*/
 /*Logo banner*/
 /*================================*/
@@ -84,20 +85,25 @@ hr {
     float: left;
     margin-left: 20%;
     font-size: 1.25em;
+    border: 1px black solid;
 }
 
 #signUp {
     /*color: #730E15;*/
     display: inline-block;
-    margin-right: 15%
+    margin-right: 15%;
+    border: 1px black solid;
+
 }
 
 #logIn {
     display: inline-block;
+    border: 1px black solid;
 }
 
 #logOut {
     display: inline-block;
+    border: 1px black solid;
 }
 
 #empty {
@@ -126,6 +132,31 @@ a {
 }
 
 
+/*================================*/
+/*Footer*/
+/*================================*/
+//http://mystrd.at/modern-clean-css-sticky-footer/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
 
 
 
