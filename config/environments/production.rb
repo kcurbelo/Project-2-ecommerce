@@ -21,6 +21,7 @@ Rails.application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or NGINX will already do this).
+  #Why I set config.serve_static_assets = true ...https://github.com/heroku/rails_12factor/issues/12
   config.serve_static_assets = true
 
   config.assets.compile = true
