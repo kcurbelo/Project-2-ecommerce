@@ -7,7 +7,7 @@
   <h1> Edit a Jacket!</h1>
 
   <div id="editForm">
-  <%= form_for (@jacket, multipart: true) do |f| %>
+  <%= form_for @jacket do |f| %>
     Type: <br />
     <%= f.text_field :name %><br />
     <!-- Rails guide form helper says that you could use number_field ...Itll have up and down arrows and allow you to bring up numbers on mobile -->
