@@ -7,7 +7,7 @@
 
 <div id="newForm">
 	<!--This is saying to go an look for the "@jacket" in the Jacket controller under the "new section"-->
-  <%= form_for @jacket do |f| %>
+  <%= form_for (@jacket, multipart: true) do |f| %>
 
       <div class="inputBox">
       Name: <br />
