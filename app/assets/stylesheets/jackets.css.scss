@@ -22,7 +22,7 @@ h1 {
 }
 
 #tile {
-  background-color: chocolate;
+//  background-color: chocolate;
   width: 90%;
   text-align: center;
   margin: 2% 5%;
@@ -32,7 +32,7 @@ h1 {
 
 #newJacketButton {
   clear: both;
-  background-color: cornflowerblue;
+//  background-color: cornflowerblue;
   text-align: center;
   padding-top: 20px;
   width: 90%;
@@ -43,9 +43,8 @@ h1 {
 .picTile {
   height: 300px;
   max-width: 260px;
-  background-color: lightsalmon;
+//  background-color: lightsalmon;
   margin: 0 auto;
-  border: 1px black solid;
 }
 
 
@@ -57,20 +56,19 @@ h1 {
 #InfoBox {
   width: 80%;
   max-width: 350px;
-  background-color: peachpuff;
+//  background-color: peachpuff;
   margin: 0 auto;
   text-align: center;
   font-size: 1.25em;
-  border: 1px black solid;
+//  border: 1px black solid;
 }
 
 #PicBox {
   width: 80%;
   max-width: 260px;
-  background-color: beige;
+//  background-color: beige;
   height: 260px;
   margin: 15px auto 2px auto;
-  border: 1px black solid;
 }
 
 #back {
@@ -122,7 +120,7 @@ input {
 
 .inputBox {
   //  margin: 0 auto;
-  background-color: #cccccc;
+//  background-color: #cccccc;
   width: 75%;
   max-width: 300px;
   text-align: center;
@@ -151,7 +149,7 @@ input {
 
 
 #tile {
-  background-color: chocolate;
+//  background-color: chocolate;
   width: 260px;
   text-align: center;
   margin: 20px;
@@ -199,21 +197,20 @@ input {
   //==========================
   #InfoBox {
     width: 350px;
-    background-color: peachpuff;
+//    background-color: peachpuff;
 //    margin-right: 80px;
     float: right;
     margin-top: 10px;
-    border: 1px black solid;
+//    border: 1px lightgray solid;
   }
 
   #PicBox {
     width: 80%;
     max-width: 260px;
-    background-color: beige;
+//    background-color: beige;
     height: 260px;
     margin: 15px auto 2px auto;
     float: left;
-    border: 1px black solid;
   }
 
   #nothing {

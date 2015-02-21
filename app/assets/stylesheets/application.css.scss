@@ -44,13 +44,13 @@ hr {
 /*Logo banner*/
 /*================================*/
 #logoBanner {
-    background-color: bisque;
+//    background-color: bisque;
     width: 100%;
     margin: 0 auto;
 }
 
 #logo {
-    background-color: burlywood;
+//    background-color: burlywood;
     margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@ hr {
 /*================================*/
 
 #nav {
-    background-color: blanchedalmond;
+//    background-color: blanchedalmond;
     width: 100%;
     margin: 0 auto;
     text-align: right;
@@ -72,7 +72,7 @@ hr {
 }
 
 #auth {
-    background-color: aliceblue;
+//    background-color: aliceblue;
     width: 175px;
     float: right;
     margin-right: 10%;
@@ -80,30 +80,26 @@ hr {
 }
 
 #home {
-    background-color: burlywood;
+//    background-color: burlywood;
     /*width: 75px;*/
     float: left;
     margin-left: 20%;
     font-size: 1.25em;
-    border: 1px black solid;
 }
 
 #signUp {
     /*color: #730E15;*/
     display: inline-block;
-    margin-right: 15%;
-    border: 1px black solid;
+    margin-right: 25%;
 
 }
 
 #logIn {
     display: inline-block;
-    border: 1px black solid;
 }
 
 #logOut {
     display: inline-block;
-    border: 1px black solid;
 }
 
 #empty {
@@ -120,14 +116,14 @@ a {
 /*================================*/
 
 #container {
-    background-color: antiquewhite;
+//    background-color: antiquewhite;
     margin: 0 auto;
     max-width: 900px;
     /*padding: 20px;*/
 }
 
 #footer {
-    background-color: lightblue;
+//    background-color: lightblue;
     width: 100%;
 }
 
