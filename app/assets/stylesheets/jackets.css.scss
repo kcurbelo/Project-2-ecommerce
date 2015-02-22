@@ -19,6 +19,8 @@ img {
 h1 {
   text-align: center;
   margin: 10px 0 20px 0;
+//  background-color: chocolate;
+  font-size: 1.25em;
 }
 
 #tile {
@@ -110,7 +112,7 @@ input {
 .button {
   width: 80%;
   font-size: 1.25em;
-  /* color: #B00100; */
+//  /* color: #B00100; */
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   max-width: 300px;
@@ -146,7 +148,12 @@ input {
 //  text-align: center;
 //}
 
-
+  h1 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+//    background-color: chocolate;
+    font-size: 1.5em;
+  }
 
 #tile {
 //  background-color: chocolate;

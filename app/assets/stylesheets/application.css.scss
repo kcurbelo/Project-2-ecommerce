@@ -55,7 +55,7 @@ hr {
 }
 
 #logoText {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0 0 10px 0;
 }
 
@@ -73,14 +73,13 @@ hr {
 
 #auth {
 //    background-color: aliceblue;
-    width: 175px;
+    width: 155px;
     float: right;
-    margin-right: 10%;
+    margin-right: 5%;
     font-size: 1.25em;
 }
 
 #home {
-//    background-color: burlywood;
     /*width: 75px;*/
     float: left;
     margin-left: 20%;
@@ -90,7 +89,7 @@ hr {
 #signUp {
     /*color: #730E15;*/
     display: inline-block;
-    margin-right: 25%;
+    margin-right: 15%;
 
 }
 
@@ -159,6 +158,46 @@ http://ryanfait.com/
 /*================================================================*/
 /*  Media Quiries stuff*/
 /*================================================================*/
+
+
+
+
+@media screen and (min-width: 500px) {
+
+  #logoText {
+    font-size: 3em;
+    margin: 0 0 10px 0;
+  }
+
+  #auth {
+//    background-color: aliceblue;
+    width: 175px;
+    float: right;
+    margin-right: 10%;
+    font-size: 1.25em;
+  }
+
+  #signUp {
+    /*color: #730E15;*/
+    display: inline-block;
+    margin-right: 25%;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*================================*/
