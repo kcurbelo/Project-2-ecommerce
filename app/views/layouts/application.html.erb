@@ -22,7 +22,7 @@
 <!-- =================================== -->
 <div id="logoBanner">
     <div id="logo">
-      <h1 id="logoText">Hank and Volley</h1>
+      <h1 id="logoText">Hank & Volley</h1>
       <!--<img src="/assets/logo.png">-->
     </div>
 </div>
@@ -36,17 +36,17 @@
   <div id="auth">
       <!-- Logout button -->
       <% if current_user != nil %>
-      <div id="logOut"><%= link_to "Log out", logout_path, method: :delete %></div>
+      <div id="logOut"><%= link_to "Log out", logout_path, method: :delete, :class => "hvr-sweep-to-right" %></div>
 
       <% else %>
-      <div id="signUp"><%= link_to "Sign up", new_user_path %></div>
+      <div id="signUp"><%= link_to "Sign up", new_user_path, :class => "hvr-sweep-to-right" %></div>
       <!--<div id="signUp"><%#= link_to "Sign up", new_user_path, method: :get %></div>-->
-      <div id="logIn"><%= link_to "Log in", new_session_path %></div>
+      <div id="logIn"><%= link_to "Log in", new_session_path, :class => "hvr-sweep-to-right" %></div>
       <% end %>
 
   </div>
   <div id="home">
-    <%= link_to "Jackets", jackets_path %>
+    <%= link_to "Jackets", jackets_path, :class => "hvr-sweep-to-right" %>
   </div>
   <!--Empty div to prevent collapse of nav divs-->
   <div id="empty">
@@ -56,10 +56,11 @@
 </div>
 
 
-
 <!-- =================================== -->
 <!--               Yield                 -->
 <!-- =================================== -->
+
+
 <div id="container">
     <%= yield %>
 </div>

@@ -39,7 +39,6 @@ hr {
 }
 
 
-
 /*================================*/
 /*Logo banner*/
 /*================================*/
@@ -75,14 +74,14 @@ hr {
 //    background-color: aliceblue;
     width: 155px;
     float: right;
-    margin-right: 5%;
+    margin-right: 12%;
     font-size: 1.25em;
 }
 
 #home {
     /*width: 75px;*/
     float: left;
-    margin-left: 20%;
+    margin-left: 12%;
     font-size: 1.25em;
 }
 
@@ -95,6 +94,7 @@ hr {
 
 #logIn {
     display: inline-block;
+  color: #B00100;
 }
 
 #logOut {
@@ -155,6 +155,10 @@ http://ryanfait.com/
 
 
 
+
+
+
+
 /*================================================================*/
 /*  Media Quiries stuff*/
 /*================================================================*/
@@ -183,120 +187,67 @@ http://ryanfait.com/
     margin-right: 25%;
 
   }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*================================*/
-/*Everything*/
-/*================================*/
-/*html {*/
-    /*font-family: 'Raleway', sans-serif;*/
-/*}*/
-
-/* Gradient transparent - color - transparent */
-/* Source: http://css-tricks.com/examples/hrs/ */
-/*hr {*/
-    /*border: 0;*/
-    /*height: 1px;*/
-    /*background: #333;*/
-    /*background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);*/
-    /*background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);*/
-    /*background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);*/
-    /*background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);*/
-/*}*/
-
-
-/*================================*/
-/*Logo banner*/
-/*================================*/
-/*#logoBanner {*/
-    /*background-color: bisque;*/
-    /*width: 940px;*/
-    /*margin: 0 auto;*/
-/*}*/
-
-/*#logo {*/
-    /*background-color: burlywood;*/
-    /*width: 600px;*/
-    /*margin: 0 auto;*/
-/*}*/
-
-/*#logoText {*/
-    /*font-size: 3em;*/
-/*}*/
-
-/*================================*/
-/* Nav */
-/*================================*/
-
-/*#nav {
-    background-color: blanchedalmond;
-    width: 940px;
-    margin: 0 auto;
-    text-align: right;
-}
-
-#auth {
-    background-color: aliceblue;
-    width: 150px;
-    float: right;
-}
-
-#home {
-    background-color: burlywood;
-    width: 75px;
+  #home {
+    /*width: 75px;*/
     float: left;
-}
-
-#signUp {
-    /*color: #730E15;*/
-    /*display: inline-block;*/
-    /*margin-right: 25px;*/
-/*}*/
-
-/*#logIn {*/
-    /*display: inline-block;*/
-/*}*/
-
-/*#logOut {*/
-    /*display: inline-block;*/
-/*}*/
-
-/*#empty {*/
-    /*visibility: hidden;*/
-/*}*/
-
-/*================================*/
-/*Yield container*/
-/*================================*/
-/*
-#container {
-    background-color: antiquewhite;
-    width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+    margin-left: 20%;
+    font-size: 1.25em;
+  }
 
 }
 
-#footer {
-    background-color: lightblue;
-    width: 100%;
-}*/
 
+
+
+/*================================================================*/
+/*  Hover Effect
+//http://ianlunn.github.io/Hover/
+/*================================================================*/
+
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
 
 
