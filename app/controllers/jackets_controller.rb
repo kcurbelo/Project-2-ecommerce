@@ -1,6 +1,9 @@
 class JacketsController < ApplicationController
   def index
     @jackets = Jacket.all
+
+    @user = User.where(id: session["user_id"]).first
+
   end
 
   def show
