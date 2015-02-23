@@ -25,6 +25,7 @@
         <%= link_to 'Show | ', jacket, :class => "hover hvr-sweep-to-right" %>
         <%= link_to 'Edit | ', edit_jacket_path(jacket), :class => "hvr-sweep-to-right"   %>
         <%= link_to 'Delete ', jacket, method: :delete, data: { confirm: 'Are you sure?' }, :class => "hvr-sweep-to-right" %>
+            <div id="newJacketButton"> <%= link_to "New Jacket", "jackets/new" , :class => "hvr-sweep-to-right" %></div>
             <% else %>
         <%end%>
 
@@ -32,7 +33,7 @@
   <% end %>
 
 
-  <div id="newJacketButton"> <%= link_to "New Jacket", "jackets/new" , :class => "hvr-sweep-to-right" %></div>
+
 <br />
 <br />
   <%#= link_to "New User", "users/new" %>
