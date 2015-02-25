@@ -48,22 +48,23 @@ input {
 
 .button {
   width: 80%;
-  font-size: 1.25em;
-  //  /* color: #B00100; */
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   max-width: 300px;
-  //  background-color: blue;
+  background-color: transparent;
   border: none;
   color: black;
   text-align: center;
+
 }
 
-.bgBlack {
+.bg {
   width: 80%;
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
+  font-size: 20px;
 }
 
 /*================================================================*/
